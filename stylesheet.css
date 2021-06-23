@@ -1,0 +1,114 @@
+ #header{
+    width: 400px;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    margin: 0 15px 0 15px;
+ }
+ .header{
+    min-height: 100vh;
+    margin: 0 15px 0 15px;
+ }
+ .p {
+     text-color: white;  
+ }
+ 
+/*----- course -----*/
+
+ #course{
+     width: 400px;
+     height: 900px;
+     margin: 10px 15px 10px 15px; 
+ }
+ .row{
+    margin-top: 5%;
+    display: flex;+-0
+     
+    justify-content: space-around;
+    hover-color: red;
+ }
+ .course-col{
+    flex-basis: 31%;
+    background-color: pink;
+    background-border: 5px;
+    margin: 5% 5% 5%5%;
+    padding: 0px 12px 0px 8px;
+    box-sizing: content-box;
+    pointer-events: cursor;
+    transition: 0.5s;
+ }
+ .h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }
+ .course-col:hover{
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,1.5);
+}  
+
+ 
+/*----- campus -----*/
+
+ #campus{
+     width: 400px;
+     height: 900px;
+     margin: 0 15px 0; 
+ }
+ .row{
+    margin-top: 5%;
+    display: flex;+-0
+     
+    justify-content: space-around;
+    hover-color: red;
+ }
+ .campus-col{
+    flex-basis: 31%;
+    background-color: pink;
+    background-border: 5px;
+    margin: 5% 5% 5%5%;
+    padding: 0px 12px 0px 8px;
+    box-sizing: content-box;
+    pointer-events: cursor;
+    transition: 0.5s;
+ }
+ .h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }
+ .campus-col:hover{
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,1.5);
+}
+
+/*----- global -----*/
+
+ #global{
+     width: 400px;
+     height: 900px;
+     margin: 0 15px 0; 
+ }
+ .row{
+    margin-top: 5%;
+    display: flex;+-0
+     
+    justify-content: space-around;
+    hover-color: red;
+}
+ .global-col{
+    flex-basis: 31%;
+    background-color: pink;
+    background-border: 5px;
+    margin: 5% 5% 5%5%;
+    padding: 20px 12px 10px 8px;
+    box-sizing: center;
+    pointer-events: cursor;
+    transition: 0.5s;
+ }
+ .h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }
+ .global-col:hover{
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,1.5);
+ }
+ 
